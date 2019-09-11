@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/apoorvakulkarni-test/apoorvakulkarni-test/static/css/main.2025a2db.chunk.css",
+    "main.js": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/main.f32d5fbc.chunk.js",
+    "main.js.map": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/main.f32d5fbc.chunk.js.map",
+    "runtime~main.js": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/runtime~main.630bc0b4.js",
+    "runtime~main.js.map": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/runtime~main.630bc0b4.js.map",
+    "static/js/2.849c0586.chunk.js": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/2.849c0586.chunk.js",
+    "static/js/2.849c0586.chunk.js.map": "/apoorvakulkarni-test/apoorvakulkarni-test/static/js/2.849c0586.chunk.js.map",
+    "index.html": "/apoorvakulkarni-test/apoorvakulkarni-test/index.html",
+    "precache-manifest.48edab605f5632f19ce4ea98934012e4.js": "/apoorvakulkarni-test/apoorvakulkarni-test/precache-manifest.48edab605f5632f19ce4ea98934012e4.js",
+    "service-worker.js": "/apoorvakulkarni-test/apoorvakulkarni-test/service-worker.js",
+    "static/css/main.2025a2db.chunk.css.map": "/apoorvakulkarni-test/apoorvakulkarni-test/static/css/main.2025a2db.chunk.css.map",
+    "static/media/App.css": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/JosefinSans-Regular.673965c5.ttf",
+    "static/media/logo.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/logo.9e9720b4.png",
+    "static/media/tile-comic.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tile-comic.8450d192.png",
+    "static/media/tile-moonboat.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tile-moonboat.56fc4bb9.png",
+    "static/media/tile-ufb.jpg": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tile-ufb.7ff96b9a.jpg",
+    "static/media/tile-werth.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tile-werth.d8b938d7.png",
+    "static/media/tiles-mural.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tiles-mural.5afe55b5.png",
+    "static/media/tiles-plu.png": "/apoorvakulkarni-test/apoorvakulkarni-test/static/media/tiles-plu.4f3d86dd.png"
+  }
+}
