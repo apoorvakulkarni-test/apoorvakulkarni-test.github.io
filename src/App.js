@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom'
+import Header from './components/header'
+import Footer from './components/footer';
+import uuid from 'uuid'
+import { routingItems } from './config'
+import './App.css'
+import ReactGA from "react-ga";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    componentDidMount() {
+        ReactGA.initialize('UA-178887327-1');
+        ReactGA.pageview(window.location.pathname);
+    }
+    
+    render() {
+        return (
+            <React.Fragment>
+            <Header />
+            <Switch>
+                {routingItems.map(item => <Route exact key={uuid()} path={item.path} component={item.component} />)}
+            </Switch>
+            <Footer />
+            </React.Fragment>
+        );
+    }
 }
+
 
 export default App;
