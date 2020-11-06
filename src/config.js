@@ -1,6 +1,7 @@
 import Project from './components/project'
 import About from './components/about'
 import Home from './components/home'
+import UConnSurvive from './pages/uconnsurvive'
 import parkUpConfig from './tilesConfig/parkUp'
 import motionGraphicConfig from './tilesConfig/motionGraphic'
 import graphicConfig from './tilesConfig/graphic'
@@ -13,9 +14,9 @@ import arConfig from './tilesConfig/augmented'
 export const defaultTopMargin = 'calc(48px + 0.8vw)';
 export const halfDefaultTopMargin = 'calc(24px + 0.4vw)';
 export const workTiles = [
-{ pic: 'tile-rider.png', text: "Rider", link: "/rider" } ,
- { pic: 'tile-parkup.png', text: 'ParkUp', link: "/parkup" },
  { pic: 'tile-uconnsurvive.png', text: 'UConn Survive', link: "/uconnsurvive" },
+ { pic: 'tile-rider.png', text: "Rider", link: "/rider" } ,
+ { pic: 'tile-parkup.png', text: 'ParkUp', link: "/parkup" },
  { pic: 'tile-ar.png', text: "Augmented Reality", link: "/ar"},
 ]
 
@@ -24,9 +25,7 @@ export const playTiles = [
     { pic: 'tile-motiongraphic.jpg', text: 'A Hug For Soup', link: "/motiongraphics" },
     { pic: 'tile-mural.jpg', text: 'AsACC Mural', link: "/mural" },
     { pic: 'tile-moonboat.jpg', text: 'Digital Art', link: "/illustration" },
-
 ]
-
 
 export const navBarItems = [
  { id: "", link:"/" , name:"work"},
@@ -46,7 +45,7 @@ export const routingItems = [
  { path:"/mural", component: Project },
  { path:"/parkup", component: Project },
  { path:"/motiongraphics", component: Project },
- { path:"/uconnsurvive", component: Project },
+ { path:"/uconnsurvive", component: UConnSurvive },
  { path:"/ar", component: Project }
 ] 
 const tagLineString =  "Hello, I'm Apoorva!"

@@ -12,7 +12,7 @@ export default [
     },
     {
         type: TYPES.PARA,
-        text: "A web platform to give a voice to assault, abuse and harassment survivors"
+        text: "UConn Survive is a digital space on Instagram dedicated to empower unheard and ignored stories. The goal of this platform is to create a community where people can express their abuse, assault and/or harassment stories, learn about other’s experiences and know they’re not alone. At UConn Survive, every story matters."
     },
     {
         type: TYPES.PIC,

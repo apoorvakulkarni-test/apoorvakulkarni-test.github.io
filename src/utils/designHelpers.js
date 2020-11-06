@@ -11,6 +11,7 @@ const PicContainer = styled.div`
 `
 
 const Item = styled(Para)`
+  margin-top: 8px;
 `
 const InlineHeading = styled.span`
  font-weight:${props => !props.underline ? 800 : 0};
