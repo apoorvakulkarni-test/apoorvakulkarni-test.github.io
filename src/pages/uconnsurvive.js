@@ -17,7 +17,15 @@ import {
     FlexibleContainer,
     ListItems
 } from '../utils/designHelpers'
-
+const GifContainer = styled.img`
+    dipslay: block;
+    margin: 0 auto;
+    width: calc(16em + 19vw);
+    @media (max-width: 1500px) {
+        width: auto;
+        height: calc(11.5em + 6.5vw);
+    }
+`
 const SplitScreen = styled.div`
     position: relative;
     display: flex;
@@ -34,7 +42,7 @@ const SplitContainer = styled.div`
     flex-basis: 50%;
     position: relative;
     @media (max-width: 1500px) {
-        margin-top: 0.7em;
+        margin-top: 1em;
     }
 `
 const StylelessLink = styled.a`
@@ -101,8 +109,7 @@ export default () => {
             <FlexibleContainer marginBottom={headingSpace}>
                 <SplitScreen>
                     <SplitContainer>
-                        <WorkImage
-                            vertical={true}
+                        <GifContainer
                             src={imagePath("usc-1.gif")} />
                     </SplitContainer>
                     <SplitContainer>
@@ -119,27 +126,8 @@ export default () => {
             <FlexibleContainer marginBottom={headingSpace}>
                 <SplitScreen>
                     <SplitContainer>
-                            <WorkImage
-                                vertical={true}
+                            <GifContainer
                                 src={imagePath("usc-2.gif")} />
-                    </SplitContainer>
-                    <SplitContainer>
-                        <FlexibleContainer>
-                            <FlexibleContainer marginBottom={paraSpace}>
-                                <Heading>Need help?</Heading>
-                            </FlexibleContainer>
-                            <Para>Survivors are often confused and frustrated about how to get help. Providing the appropriate guidance, support and set of resources can be extremely beneficial to their path of recovery.</Para>
-                        </FlexibleContainer>
-                    </SplitContainer>
-                </SplitScreen>
-            </FlexibleContainer>
-
-            <FlexibleContainer marginBottom={headingSpace}>
-                <SplitScreen>
-                    <SplitContainer>
-                            <WorkImage
-                                vertical={true}
-                                src={imagePath("usc-3.gif")} />
                     </SplitContainer>
                     <SplitContainer>
                         <FlexibleContainer>
@@ -149,6 +137,24 @@ export default () => {
                             <Para>Being told that someone has been assaulted, abused or harassed can be incredibly scary, emotional and shocking for the one being told as well as the survivor. Many times we are unsure of how to respond and what to do. Even though one might want to ask questions, express outrage and offer advice, these expressions may come across as judgemental and detrimental to the survivor. Hence, it is important to learn and understand how to help survivors the right way.</Para>
                         </FlexibleContainer>
                     </SplitContainer>
+                </SplitScreen>
+            </FlexibleContainer>
+
+            <FlexibleContainer marginBottom={headingSpace}>
+                <SplitScreen>
+                    <SplitContainer>
+                            <GifContainer
+                                src={imagePath("usc-3.gif")} />
+                    </SplitContainer>
+                    <SplitContainer>
+                        <FlexibleContainer>
+                            <FlexibleContainer marginBottom={paraSpace}>
+                                <Heading>Need help?</Heading>
+                            </FlexibleContainer>
+                            <Para>Survivors are often confused and frustrated about how to get help. Providing the appropriate guidance, support and set of resources can be extremely beneficial to their path of recovery.</Para>
+                        </FlexibleContainer>
+                    </SplitContainer>
+                    
                 </SplitScreen>
             </FlexibleContainer>
            

@@ -60,6 +60,7 @@ export const WorkImageContainer = styled.div`
  align-items: center;
  margin-top: ${props => props.marginTop};
  margin-bottom: ${props => props.marginBottom};
+ pointer-events: none;
 `
 
 
@@ -75,7 +76,7 @@ export const WorkImageCap = styled.p`
  font-size: calc(0.70em + 0.25vw);
  opacity: 0.8;
  margin: 0;
- text-align: center;
+ text-align: center;s
 `
 export const StudyCasePic = styled.img`
  display: block;
